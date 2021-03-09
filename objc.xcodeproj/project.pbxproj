@@ -864,7 +864,7 @@
 				TargetAttributes = {
 					5B87DDE425A804EC009E0AB3 = {
 						CreatedOnToolsVersion = 12.3;
-						DevelopmentTeam = 83J8888V77;
+						DevelopmentTeam = X685FRKB5N;
 						ProvisioningStyle = Automatic;
 					};
 					6EF877D62325D62600963DBB = {
@@ -1092,6 +1092,7 @@
 				INSTALL_PATH = /usr/lib;
 				IS_ZIPPERED = YES;
 				LLVM_LTO = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ORDER_FILE = "$(SRCROOT)/libobjc.order";
 				"ORDER_FILE[sdk=iphonesimulator*]" = "";
 				OTHER_CFLAGS = (
@@ -1170,6 +1171,7 @@
 				);
 				INSTALL_PATH = /usr/lib;
 				IS_ZIPPERED = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ORDER_FILE = "$(SRCROOT)/libobjc.order";
 				"ORDER_FILE[sdk=iphonesimulator*]" = "";
 				OTHER_CFLAGS = (
@@ -1351,7 +1353,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 83J8888V77;
+				DEVELOPMENT_TEAM = X685FRKB5N;
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -1407,7 +1409,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 83J8888V77;
+				DEVELOPMENT_TEAM = X685FRKB5N;
 				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
