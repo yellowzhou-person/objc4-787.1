@@ -61,7 +61,7 @@
 		5B87DD2625A6FF5C009E0AB3 /* dyld_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B87DD2525A6FF5C009E0AB3 /* dyld_priv.h */; };
 		5B87DD8A25A7F794009E0AB3 /* restartable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B87DD8925A7F794009E0AB3 /* restartable.h */; };
 		5B87DD9225A7F80D009E0AB3 /* Block_private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B87DD9125A7F80D009E0AB3 /* Block_private.h */; };
-		5B87DDE825A804EC009E0AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87DDE725A804EC009E0AB3 /* main.m */; };
+		5B87DDE825A804EC009E0AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87DDE725A804EC009E0AB3 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5B87DDFC25A8276D009E0AB3 /* libobjc.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC0630554660B00DB518D /* libobjc.A.dylib */; };
 		5B87DE0625A82B77009E0AB3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B87DE0525A82B77009E0AB3 /* Person.m */; };
 		6E1475EA21DFDB1B001357EA /* llvm-AlignOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1475E521DFDB1A001357EA /* llvm-AlignOf.h */; };

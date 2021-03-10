@@ -10,6 +10,17 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Person : NSObject
+{
+    @public
+    NSInteger age;
+    int index;
+}
+@property (nonatomic, strong)   NSString *name;
+
+
+@end
+
+@interface Woman : Person
 
 @end
 

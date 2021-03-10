@@ -5,3 +5,6 @@
 ### 执行方式
 1、修改 Deployment Target 为 10.14
 2、执行objcDemo
+
+### 学习记录
+1、[isa 理解](./record/isa.md)
