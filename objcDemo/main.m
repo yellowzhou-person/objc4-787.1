@@ -32,6 +32,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         /*
+         // https://www.jianshu.com/p/00fca1c5d742
          (lldb) x/4gx woman //打印实例对象内存分布
          0x101046e10: 0x001d800100008215 0x0000000000000064
          0x101046e20: 0x00000000000001c8 0x0000000100004010
@@ -57,6 +58,17 @@ int main(int argc, const char * argv[]) {
         woman.name = @"yellow";
         woman->age = 100;
         woman->index = 456;
+        
+        Student *student = [Student new];
+        struct WData d;
+        d.infos = @{@"a":@"123",@"b":@456};
+        d.height = 120;
+        d.money = 78.36;
+        d.alise = @"alise ....";
+        student->d = d;
+        student->note = @"note ....";
+        
+        object_getClass(student);
         
         size_t size1 = class_getInstanceSize(woman.class);
         size_t size2 = class_getInstanceSize(Person.class);

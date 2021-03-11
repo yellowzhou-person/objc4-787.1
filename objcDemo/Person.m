@@ -16,4 +16,7 @@
 
 @end
 
+@implementation Student
+
+@end
 

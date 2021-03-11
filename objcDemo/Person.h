@@ -21,6 +21,27 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface Woman : Person
+@end
+
+struct WData {
+    NSDictionary * infos;
+    NSInteger   height;
+    NSString * alise;
+    CGFloat     money;
+};
+@interface Student : NSObject
+{
+    @public
+    struct WData d;
+    
+    NSString * note;
+}
+
+@property (nonatomic , strong) NSString * name;
+@property (nonatomic , assign) int age;
+
+
+@property (nonatomic , copy) void (^modify)(NSString *name, int age);
 
 @end
 
